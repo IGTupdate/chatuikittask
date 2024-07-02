@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.avatar_group {
+    @apply relative flex h-8 w-8 shrink-0 select-none items-center justify-center rounded-full bg-pink-100 text-sm font-bold uppercase text-gray-800 ring ring-white cursor-pointer;
+}
+
+.button {
+    @apply hover:bg-gray-100 rounded-lg p-3 text-xl;
+}
+
+/* .arrow {
+    position: relative;
+}
+
+.arrow::before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -40px;
+    right: auto;
+    top: -8px;
+    bottom: auto;
+    border: 32px solid;
+    border-color: #666 transparent transparent transparent;
+} */
